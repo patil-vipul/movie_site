@@ -1,0 +1,76 @@
+.mt-nav {
+    margin-top: 3.5rem!important;
+}
+
+.h-carousel {
+    height: 25rem;
+}
+
+.vertical-poster {
+    width: 8rem;
+}
+
+.t-200 {
+    transition: all 0.2s;
+}
+
+.t-400 {
+    transition: all 0.4s;
+}
+
+.t-600 {
+    transition: all 0.6s;
+}
+
+.hover-zoom:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.youtube-player {
+    border: 0px;
+    padding: 0px;
+    height: 15rem;
+}
+
+@media (min-width: 576px) {
+    .vertical-poster {
+        width: 10rem;
+    }
+    .youtube-player {
+        border: 0px;
+        padding: 0px;
+        height: 18rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .vertical-poster {
+        width: 11rem;
+    }
+    .youtube-player {
+        border: 0px;
+        padding: 0px;
+        height: 24rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .vertical-poster {
+        width: 12rem;
+    }
+    .youtube-player {
+        border: 0px;
+        padding: 0px;
+        height: 16rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .vertical-poster {
+        width: 11rem;
+    }
+}
